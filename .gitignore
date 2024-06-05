@@ -1,0 +1,23 @@
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+
+# Diretórios
+node_modules/
+dist/
+
+# Arquivos de configuração
+.env
+.env.local
+
+# Dependências geradas
+package-lock.json
+yarn.lock
+
+# Outros arquivos gerados durante a construção do projeto
+/build
+/out

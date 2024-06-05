@@ -1,0 +1,29 @@
+{
+  "name": "arenadospatos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cleanDB": "node ./src/seeders/cleanDB.seeders.js ",
+    "start-schedu": "node ./src/seeders/scheduling.seeders.js",
+    "start-fields": "node ./src/seeders/fields.seeders.js ",
+    "start-user": "node ./src/seeders/user.seeders.js ",
+    "startDB": "node ./src/seeders/scheduling.seeders.js  && node ./src/seeders/fields.seeders.js && node ./src/seeders/user.seeders.js",
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.0"
+  }
+}
